@@ -1,0 +1,11 @@
+com\retail\exceptions\RetailException.class
+com\retail\model\OrderResponse.class
+com\retail\discountstrategy\DiscountStrategy.class
+com\retail\discountstrategy\CustomerDiscountStrategy.class
+com\retail\model\OrderRequest.class
+com\retail\enums\ShoppingType.class
+com\retail\discountstrategy\AffilliateDiscountStrategy.class
+com\retail\model\ShoppingAmount.class
+com\retail\enums\UserType.class
+com\retail\discountstrategy\EmployeeDiscountStrategy.class
+com\retail\controller\OrderController.class
