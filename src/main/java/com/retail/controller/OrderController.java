@@ -26,17 +26,4 @@ public class OrderController {
 
 	}
 
-	public static void main(String[] args) throws Exception {
-		ShoppingAmount shoppingAmount = new ShoppingAmount(12.00, "groceries");
-		ShoppingAmount shoppingAmount1 = new ShoppingAmount(13.00, "electronics");
-		List<ShoppingAmount> obj = new ArrayList<ShoppingAmount>();
-		obj.add(shoppingAmount);
-		obj.add(shoppingAmount1);
-		String userType = "employee";
-		Integer userDurations = 2;
-
-		createOrder(obj, userType, userDurations);
-
-	}
-
 }
